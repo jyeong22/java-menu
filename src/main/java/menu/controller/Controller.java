@@ -24,6 +24,8 @@ public class Controller {
         String s = ResultPrintMaker.resultString(dayCategory.getDayCategory(), menuRecommendResultValue);
         OutputView.printResult(s);
         OutputView.printEnd();
+
+
     }
 }
 
